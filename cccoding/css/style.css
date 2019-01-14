@@ -1,0 +1,73 @@
+body,html {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100%;
+    }
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: left;
+  color: #1a1aff;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #99bbff;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #8080ff;
+  color: white;
+}
+.main{
+background-image:url("../images/bg1.jpg")
+text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+
+  height: 50%;
+
+  /* Центрирование+масштаб */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Картинки */
+.img1 { background-image: url("../images/bg1.jpg"); }
+.img2 { background-image: url("../images/bg2.jpg"); }
+.img3 { background-image: url("../images/bg3.jpg"); }
+.img4 { background-image: url("../images/bg4.jpg"); }
+.img5 { background-image: url("../images/bg5.jpg"); }
+.img6 { background-image: url("../images/bg6.jpg"); }
+
+/* Центрирование */
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4); /* Чёрно-прозрачный */
+  color: white;
+  font-weight: bold;
+  font-size: 80px;
+  border: 10px solid #f1f1f1;
+  position: fixed; /* Фикс */
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 600px;
+  padding: 20px;
+  text-align: center;
+}
